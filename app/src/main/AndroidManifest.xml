@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
-        android:fullBackupContent="">
+        android:fullBackupContent="true">
         <activity android:name="android.render.demo.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

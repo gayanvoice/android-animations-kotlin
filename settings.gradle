@@ -1,2 +1,2 @@
-include ':app', ':kotlinrenderanimations'
+include ':app', ':library'
 rootProject.name='Kotlin Render Animations'
