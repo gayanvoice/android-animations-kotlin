@@ -5,7 +5,7 @@ import android.animation.ObjectAnimator
 import android.view.View
 
 class Attention {
-    fun bounce (view: View) :AnimatorSet{
+    fun Bounce (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()
 
         val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", 0f, 0f, -30f, 0f, -15f, 0f, 0f)
@@ -14,7 +14,7 @@ class Attention {
         return animatorSet
     }
 
-    fun flash (view: View) :AnimatorSet{
+    fun Flash (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()
 
         val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f, 1f, 0f, 1f)
@@ -23,7 +23,7 @@ class Attention {
         return animatorSet
     }
 
-    fun pulse (view: View) :AnimatorSet{
+    fun Pulse (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()
 
         val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "scaleY", 1f, 1.1f, 1f)
@@ -33,7 +33,7 @@ class Attention {
         return animatorSet
     }
 
-    fun ruberband (view: View) :AnimatorSet{
+    fun Ruberband (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()
 
         val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "scaleX", 1f, 1.25f, 0.75f, 1.15f, 1f)
@@ -43,7 +43,7 @@ class Attention {
         return animatorSet
     }
 
-    fun shake (view: View) :AnimatorSet{
+    fun Shake (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()
 
         val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "scaleX", 1f, 1.25f, 0.75f, 1.15f, 1f)
@@ -53,7 +53,7 @@ class Attention {
         return animatorSet
     }
 
-    fun standup (view: View) :AnimatorSet{
+    fun Standup (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()
         val x = ((view.width - view.paddingLeft - view.paddingRight) / 2 + view.paddingLeft).toFloat()
         val y = (view.height - view.paddingBottom).toFloat()
@@ -66,7 +66,7 @@ class Attention {
         return animatorSet
     }
 
-    fun swing (view: View) :AnimatorSet{
+    fun Swing (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()
 
         val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "rotation", 0f, 10f, -10f, 6f, -6f, 3f, -3f, 0f)
@@ -75,7 +75,7 @@ class Attention {
         return animatorSet
     }
 
-    fun tada (view: View) :AnimatorSet{
+    fun Tada (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()
 
         val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "scaleX", 1f, 0.9f, 0.9f, 1.1f, 1.1f, 1.1f, 1.1f, 1.1f, 1.1f, 1f)
@@ -87,7 +87,7 @@ class Attention {
         return animatorSet
     }
 
-    fun wave (view: View) :AnimatorSet{
+    fun Wave (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()
         val x = ((view.width - view.paddingLeft - view.paddingRight) / 2 + view.paddingLeft).toFloat()
         val y = (view.height - view.paddingBottom).toFloat()
@@ -100,7 +100,7 @@ class Attention {
         return animatorSet
     }
 
-    fun wobble (view: View) :AnimatorSet{
+    fun Wobble (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()
         val width = (view.width).toFloat()
         val one = (width / 100.0).toFloat()
