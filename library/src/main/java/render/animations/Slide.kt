@@ -22,8 +22,8 @@ class Slide {
         val parent = view.parent as ViewGroup
         val distance = (parent.width - view.left).toFloat()
 
-        val object1 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
-        val object2 = ObjectAnimator.ofFloat(view, "translationX", -distance, 0f)
+        val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
+        val object2:ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", -distance, 0f)
 
         animatorSet.playTogether(object1, object2)
         return animatorSet
@@ -34,8 +34,8 @@ class Slide {
         val parent = view.parent as ViewGroup
         val distance = (parent.width - view.left).toFloat()
 
-        val object1 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
-        val object2 = ObjectAnimator.ofFloat(view, "translationX", distance, 0f)
+        val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
+        val object2:ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", distance, 0f)
 
         animatorSet.playTogether(object1, object2)
         return animatorSet
@@ -46,8 +46,8 @@ class Slide {
         val parent = view.parent as ViewGroup
         val distance = (parent.height - view.top).toFloat()
 
-        val object1 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
-        val object2 = ObjectAnimator.ofFloat(view, "translationY", distance, 0f)
+        val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
+        val object2:ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", distance, 0f)
 
         animatorSet.playTogether(object1, object2)
         return animatorSet
@@ -58,8 +58,8 @@ class Slide {
         val parent = view.parent as ViewGroup
         val distance = (parent.height - view.top).toFloat()
 
-        val object1 = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
-        val object2 = ObjectAnimator.ofFloat(view, "translationY", 0f, distance)
+        val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
+        val object2:ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", 0f, distance)
 
         animatorSet.playTogether(object1, object2)
         return animatorSet
@@ -69,8 +69,8 @@ class Slide {
         val animatorSet = AnimatorSet()
         val right = view.right.toFloat()
 
-        val object1 = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
-        val object2 = ObjectAnimator.ofFloat(view, "translationX", 0f, -right)
+        val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
+        val object2:ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", 0f, -right)
 
         animatorSet.playTogether(object1, object2)
         return animatorSet
@@ -81,8 +81,8 @@ class Slide {
         val parent = view.parent as ViewGroup
         val distance = (parent.width - view.left).toFloat()
 
-        val object1 = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
-        val object2 = ObjectAnimator.ofFloat(view, "translationX", 0f, distance)
+        val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
+        val object2:ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", 0f, distance)
 
         animatorSet.playTogether(object1, object2)
         return animatorSet
@@ -92,8 +92,8 @@ class Slide {
         val animatorSet = AnimatorSet()
         val bottom = -view.bottom.toFloat()
 
-        val object1 = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
-        val object2 = ObjectAnimator.ofFloat(view, "translationY", 0f, bottom)
+        val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
+        val object2:ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", 0f, bottom)
 
         animatorSet.playTogether(object1, object2)
         return animatorSet
