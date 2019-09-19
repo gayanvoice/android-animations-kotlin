@@ -19,8 +19,8 @@ class Render (var cx: Context){
     }
 
     fun start(){
-        animatorSet.setDuration(du)
-        animatorSet.setInterpolator (AccelerateInterpolator())
+        animatorSet.duration = du
+        animatorSet.interpolator = AccelerateInterpolator()
         animatorSet.start()
     }
 
