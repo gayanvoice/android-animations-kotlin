@@ -48,9 +48,9 @@ dependencies {
 
 ```xml
 <dependency>
-  <groupId>com.github.gayankuruppu</groupId>
-  <artifactId>android-view-animations-kotlin</artifactId>
-  <version>1.0.0</version>
+	<groupId>com.github.gayankuruppu</groupId>
+	<artifactId>android-view-animations-kotlin</artifactId>
+	<version>1.0.0</version>
 </dependency>
 ```
 ## Usage
@@ -64,12 +64,12 @@ import render.animations.*;
 
 ```java
 // Declare TextView
-TextView AppleText = findViewById(R.id.TextView);
+val textView: TextView = findViewById(R.id.TextView)
 
 // Create Render Class
-Render render = new Render(MainActivity.this);
+ val render = Render(this)
 
 // Set Animation
-render.setAnimation(Attention.Wobble(AppleText));
-render.start();
+render.setAnimation(Bounce().InDown(textView))
+render.start()
 ```
