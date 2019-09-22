@@ -28,6 +28,12 @@ import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.view.View
 
+/*
+Java version of the Flip class
+https://github.com/gayankuruppu/android-view-animations-java/blob/master/library/src/main/java/render/animations/Flip.java
+*/
+
+
 class Flip {
     fun InX (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()

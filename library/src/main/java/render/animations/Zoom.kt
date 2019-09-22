@@ -29,6 +29,11 @@ import android.animation.ObjectAnimator
 import android.view.View
 import android.view.ViewGroup
 
+/*
+Java version of the Zoom class
+https://github.com/gayankuruppu/android-view-animations-java/blob/master/library/src/main/java/render/animations/Zoom.java
+*/
+
 class Zoom {
     fun In (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()

@@ -28,7 +28,6 @@ import android.animation.AnimatorSet
 import android.content.Context
 import android.view.animation.AccelerateInterpolator
 
-// Java version https://github.com/gayankuruppu/android-view-animations-java/blob/master/androidrenderanimations/src/main/java/render/animations/Render.java
 class Render (var cx: Context){
     var du: Long = 1000
 
