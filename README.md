@@ -83,15 +83,13 @@ To animate the view, add the class name and specific animation method name`setAn
 | `Attention` | `Bounce`    | `Fade`      | `Flip   `   | `Rotate`    | `Slide`     | `Zoom`      |
 
 
-|	      |             |             |             |
-| ----------- | ----------- | ----------- | ----------- |
-| `Bounce`|<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif">| `Flash`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/2-attention-flash.27fb56e5.gif">|
-| `Pulse`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/3-attention-pulse.ee6d1fae.gif">| `Ruberband`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/4-attention-ruberband.a701fa5b.gif">|
-| `Shake`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/5-attention-shake.62d9243a.gif">| `Standup`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/6-attention-standup.553e1945.gif">|
-| `Swing`           |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/7-attention-swing.602dd7aa.gif">| `Tada`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/8-attention-tada.faa9f3c1.gif">|
-| `Wave`            |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/9-attention-wave.9a37979d.gif">| `Wobble`              |<img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/10-attention-wobble.42ac8c56.gif">|
-
-
+<table><tbody>
+<tr><td>`Bounce`</td><td><img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/1-attention-bounce.c6335f3d.gif"></td><td>`Flash`</td><td><img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/2-attention-flash.27fb56e5.gif"></td></tr>
+<tr><td>`Pulse`</td><td><img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/3-attention-pulse.ee6d1fae.gif"></td><td>`Ruberband`</td><td><img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/4-attention-ruberband.a701fa5b.gif"></td></tr>
+<tr><td>`Shake`</td><td><img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/5-attention-shake.62d9243a.gif"></td><td>`Standup`</td><td><img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/6-attention-standup.553e1945.gif"></td></tr>
+<tr><td>`Swing`</td><td><img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/7-attention-swing.602dd7aa.gif"></td><td>`Tada`</td><td><img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/8-attention-tada.faa9f3c1.gif"></td></tr>
+<tr><td>`Wave`</td><td><img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/9-attention-wave.9a37979d.gif">v`Wobble`</td><td><img width="200" alt="portfolio_view" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/10-attention-wobble.42ac8c56.gif"></td></tr>
+</tbody></table>
 
 This android view animations library supports number of animations. Go to the java version of this library to see the gallery of animations. Click here https://github.com/gayankuruppu/android-view-animations-java#animations
 
