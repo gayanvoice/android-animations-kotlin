@@ -57,7 +57,7 @@ dependencies {
 ### Import render animations
 
 ```java
-import render.animations.*;
+import render.animations.*
 ```
 
 ### Start animation
