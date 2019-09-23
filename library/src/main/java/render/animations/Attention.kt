@@ -62,7 +62,7 @@ class Attention {
         return animatorSet
     }
 
-    fun Ruberband (view: View) :AnimatorSet{
+    fun Rubberband (view: View) :AnimatorSet{
         val animatorSet = AnimatorSet()
 
         val object1:ObjectAnimator = ObjectAnimator.ofFloat(view, "scaleX", 1f, 1.25f, 0.75f, 1.15f, 1f)
