@@ -25,7 +25,7 @@ allprojects {
 
 ```groovy
 dependencies {
-	implementation 'com.github.gayankuruppu:android-view-animations-kotlin:1.0.1'
+	implementation 'com.github.gayanvoice:android-view-animations-kotlin:1.0.1'
 }
 ```
 
@@ -48,7 +48,7 @@ dependencies {
 
 ```xml
 <dependency>
-	<groupId>com.github.gayankuruppu</groupId>
+	<groupId>com.github.gayanvoice</groupId>
 	<artifactId>android-view-animations-kotlin</artifactId>
 	<version>1.0.1</version>
 </dependency>
