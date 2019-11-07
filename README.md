@@ -1,5 +1,5 @@
 # Android View Animations in Kotlin
-[![Build Status](https://travis-ci.org/gayanvoice/android-view-animations-kotlin.svg?branch=master)](https://travis-ci.org/gayanvoice/android-view-animations-kotlin)
+[![Build Status](https://travis-ci.org/gayanvoice/android-view-animations-daimajia-kotlin.svg?branch=master)](https://travis-ci.org/gayanvoice/android-view-animations-daimajia-kotlin)
 [![](https://jitpack.io/v/gayanvoice/android-view-animations-kotlin.svg)](https://jitpack.io/#gayanvoice/android-view-animations-kotlin)
 [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gayanvoice/android-view-animations-kotlin)
