@@ -54,13 +54,14 @@ dependencies {
 </dependency>
 ```
 ## Usage
-### Import render animations
+### Java
+#### Import render animations
 
 ```java
 import render.animations.*
 ```
 
-### Start animation
+#### Start animation
 
 ```java
 // Declare TextView
@@ -72,6 +73,26 @@ val textView: TextView = findViewById(R.id.TextView)
 // Set Animation
 render.setAnimation(Bounce().InDown(textView))
 render.start()
+```
+### Kotlin
+#### Import render animations
+
+```java
+import render.animations.*;
+```
+
+#### Start animation
+
+```java
+// Declare TextView
+TextView AppleText = findViewById(R.id.TextView);
+
+// Create Render Class
+Render render = new Render(MainActivity.this);
+
+// Set Animation
+render.setAnimation(Attention.Wobble(AppleText));
+render.start();
 ```
 
 ## Animations
