@@ -58,26 +58,6 @@ dependencies {
 #### Import render animations
 
 ```java
-import render.animations.*
-```
-
-#### Start animation
-
-```java
-// Declare TextView
-val textView: TextView = findViewById(R.id.TextView)
-
-// Create Render Class
- val render = Render(this)
-
-// Set Animation
-render.setAnimation(Bounce().InDown(textView))
-render.start()
-```
-### Kotlin
-#### Import render animations
-
-```java
 import render.animations.*;
 ```
 
@@ -93,6 +73,26 @@ Render render = new Render(MainActivity.this);
 // Set Animation
 render.setAnimation(Attention.Wobble(AppleText));
 render.start();
+```
+### Kotlin
+#### Import render animations
+
+```java
+import render.animations.*
+```
+
+#### Start animation
+
+```java
+// Declare TextView
+val textView: TextView = findViewById(R.id.TextView)
+
+// Create Render Class
+ val render = Render(this)
+
+// Set Animation
+render.setAnimation(Bounce().InDown(textView))
+render.start()
 ```
 
 ## Animations
