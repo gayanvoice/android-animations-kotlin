@@ -49,7 +49,7 @@ dependencies {
 ```xml
 <dependency>
 	<groupId>com.github.gayanvoice</groupId>
-	<artifactId>android-view-animations-kotlin</artifactId>
+	<artifactId>android-view-animations-daimajia-kotlin</artifactId>
 	<version>1.0.1</version>
 </dependency>
 ```
