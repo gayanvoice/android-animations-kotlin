@@ -25,7 +25,7 @@ allprojects {
 
 ```groovy
 dependencies {
-	implementation 'com.github.gayanvoice:android-view-animations-kotlin:1.0.1'
+	implementation 'com.github.gayanvoice:android-animations-kotlin:1.0.1'
 }
 ```
 
@@ -49,7 +49,7 @@ dependencies {
 ```xml
 <dependency>
 	<groupId>com.github.gayanvoice</groupId>
-	<artifactId>android-view-animations-daimajia-kotlin</artifactId>
+	<artifactId>android-animations-kotlin</artifactId>
 	<version>1.0.1</version>
 </dependency>
 ```
